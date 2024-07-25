@@ -1,0 +1,59 @@
+/* Style général du formulaire */
+#registrationForm {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Style des labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style des champs de texte */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/*h1*/
+h1{
+  background-color : black;
+  color : darkgrey;
+  padding: 12px 20px;
+}
+h2{
+  background-color: black;
+  color : darkgrey;
+}
+body{
+  background-color: brown;
+}
+
+/* Style du bouton */
+input[type="submit"] {
+  background-color: #444;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style de l'icône de visibilité du mot de passe */
+.password-toggle {
+  position: relative;
+  display: inline-block;
+  top: -32px;
+  left: 260px;
+}
+
+.password-toggle i {
+  cursor: pointer;
+}
+
